@@ -7,3 +7,12 @@ C:\Users\Tomi\Desktop\Otthoni gyak\Mérés Jegy Számoló\MeresJegySzamolo\bin\D
 C:\Users\Tomi\Desktop\Otthoni gyak\Mérés Jegy Számoló\MeresJegySzamolo\bin\Debug\MeresJegySzamolo.pdb
 C:\Users\Tomi\Desktop\Otthoni gyak\Mérés Jegy Számoló\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.exe
 C:\Users\Tomi\Desktop\Otthoni gyak\Mérés Jegy Számoló\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.pdb
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\bin\Debug\MeresJegySzamolo.exe.config
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.exe
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.pdb
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.csprojResolveAssemblyReference.cache
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.frm_meres.resources
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.Properties.Resources.resources
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\obj\Debug\MeresJegySzamolo.csproj.GenerateResource.Cache
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\bin\Debug\MeresJegySzamolo.exe
+C:\Users\Tomi\Desktop\OwnRepos\Meres\MeresJegySzamolo\bin\Debug\MeresJegySzamolo.pdb
