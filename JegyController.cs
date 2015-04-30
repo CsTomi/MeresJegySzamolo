@@ -8,6 +8,7 @@ namespace MeresJegySzamolo
 {
     class JegyController
     {
-        
+
+        private ResultCalculator calc;
     }
 }

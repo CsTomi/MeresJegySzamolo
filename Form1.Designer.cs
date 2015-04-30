@@ -77,7 +77,6 @@
             this.mérésToolStripMenuItem.Name = "mérésToolStripMenuItem";
             this.mérésToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.mérésToolStripMenuItem.Text = "Mérés";
-            this.mérésToolStripMenuItem.Click += new System.EventHandler(this.mérésToolStripMenuItem_Click);
             // 
             // mérés1ToolStripMenuItem
             // 
@@ -243,7 +242,6 @@
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 15;
             this.label1.Text = "A jegy:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // er
             // 

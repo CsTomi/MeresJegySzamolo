@@ -9,18 +9,20 @@ namespace MeresJegySzamolo
     class ResultCalculator
     {
         private List<double> results;
-        private bool isbuko = false;
+        private bool isbuko;
 
         public ResultCalculator()
         {
             results = new List<double>(6);
+            isbuko = false;
         }
 
         public void addResult(double result)
         {
             if (result == 1.0)
                 isbuko = true;
-            results.Add(result);
+            else
+                results.Add(result);
         }
 
         public void RemoveAll()
@@ -28,7 +30,7 @@ namespace MeresJegySzamolo
             if(results.Count != 0){
             for (int i = 0; i < results.Count; i++)
                 results.RemoveAt(i);
-        }
+            }
         }
 
         public double MeresJegy(int index)

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MeresJegySzamolo.ResultCalculator" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAACAgAIAAAAAAAEAA=</HashCode>
+      <FileName>ResultCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeresJegySzamolo.JegyController">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JegyController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="calc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MeresJegySzamolo.frm_meres" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CQBAAAEAACAAEBABDACAACACCAE4QAAAAEAYAAAAQAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
