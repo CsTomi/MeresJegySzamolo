@@ -30,6 +30,7 @@ namespace MeresJegySzamolo
             if(results.Count != 0){
             for (int i = 0; i < results.Count; i++)
                 results.RemoveAt(i);
+            isbuko = false;
             }
         }
 
