@@ -63,6 +63,7 @@ namespace MeresJegySzamolo
             m1.Enabled = false;
             m1.Text = "0";
             Kontrol.MeresIndex = 1;
+            Kontrol.ClearTheResults();
         }
 
         private void button1_Click(object sender, EventArgs e)

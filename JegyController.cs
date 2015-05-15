@@ -13,7 +13,7 @@ namespace MeresJegySzamolo
     class JegyController
     {
         private int meresindex;
-        private ResultCalculator calc;
+        private static ResultCalculator calc = new ResultCalculator();
         private static JegyController instance = null;
         public static JegyController Instance
         {
@@ -33,12 +33,12 @@ namespace MeresJegySzamolo
             set
             {
                 if (value <= 0 || value > 4)
-                    throw new ArgumentException("Ilen mérés nincs!");
+                    throw new ArgumentException("Ilyen mérés nincs!");
                 meresindex = value;
             }
         }
         protected JegyController() {
-            calc = new ResultCalculator();
+            //calc = new ResultCalculator();
         }
 
         public void AddResults(double[] results)
@@ -49,9 +49,9 @@ namespace MeresJegySzamolo
             }
         }
 
-        public int GetTheResult()
+        public double GetTheResult()
         {
-            return int.Parse(calc.MeresJegy(meresindex).ToString());
+            return Math.Round(calc.MeresJegy(meresindex),0);
         }
 
         public void ClearTheResults()

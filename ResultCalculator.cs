@@ -21,15 +21,14 @@ namespace MeresJegySzamolo
         {
             if (result == 1.0)
                 isbuko = true;
-            else
-                results.Add(result);
+            results.Add(result);
         }
 
         public void RemoveAll()
         {
             if(results.Count != 0){
-            for (int i = 0; i < results.Count; i++)
-                results.RemoveAt(i);
+            for (int i = 0; i < results.Capacity; i++)
+                results.RemoveAt(0);
             isbuko = false;
             }
         }
