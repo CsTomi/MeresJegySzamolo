@@ -69,18 +69,32 @@ namespace MeresJegySzamolo
         private void button1_Click(object sender, EventArgs e)
         {
             Kontrol.ClearTheResults();
-            
-            double[] t = new double[] {
-               double.Parse(m1.Text),
-               double.Parse(m2.Text),
-               double.Parse(m3.Text),
-               double.Parse(m4.Text),
-               double.Parse(m5.Text),
-               double.Parse(em.Text)
-           };
+            double[] t = null;
+            try
+            {
+                   t = new double[] {
+                   double.Parse(m1.Text),
+                   double.Parse(m2.Text),
+                   double.Parse(m3.Text),
+                   double.Parse(m4.Text),
+                   double.Parse(m5.Text),
+                   double.Parse(em.Text)
+                  };
 
-            Kontrol.AddResults(t);
-            er.Text = Kontrol.GetTheResult().ToString();
+                   Kontrol.AddResults(t);
+                   
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Adatok beolvasásakor hiba történt! Nem jók a paraméterek!", "Hiba történt!",MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1,MessageBoxOptions.DefaultDesktopOnly);
+                t = null;
+            }
+            finally
+            {
+                    er.Text = "";
+            }
+            if(t!=null)
+                er.Text = Kontrol.GetTheResult().ToString();            
         }
     }
 }

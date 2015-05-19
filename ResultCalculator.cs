@@ -33,6 +33,9 @@ namespace MeresJegySzamolo
             }
         }
 
+        /**
+         * Megadja az adott indexű (1..4) mérés eredményét.
+         **/
         public double MeresJegy(int index)
         {
             if (isbuko)
