@@ -23,6 +23,7 @@ namespace MeresJegySzamolo
 
         private void kilépésToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Bazdmeg IIT és MIT!","Message", MessageBoxButtons.OK);
             Application.Exit();
         }
 
